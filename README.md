@@ -84,10 +84,3 @@ npm install @primevue/themes
 
 
 
-# 4. Vue Router 설치
-
-
-
-
-
-
