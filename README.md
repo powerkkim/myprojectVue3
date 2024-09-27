@@ -79,7 +79,13 @@ npm install @primevue/themes
 └── package.json
 ```
 
-
+# 7. repo 프로젝트 실행.
+```[shell]
+git clone https://github.com/powerkkim/myprojectVue3.git
+cd myprojectVue3
+npm install
+npm run dev
+```
 
 
 
