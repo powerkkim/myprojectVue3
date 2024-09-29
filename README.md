@@ -24,35 +24,57 @@ vue3를 프로젝트를생성 구현 진행할거야.
 # 답변은 한국어로 해줘
 ```
 
-# 1. 프로젝트 생성
+## 기술 스택
+- Vue.js 3.4.37
+- Vue Router 4.4.5
+- pinia 2.2.2
+- Axios 1.7.7
+- primevue 4.0.7
+- vite 5.4.1
+
+## 개발환경 
+- node.js (LTS버전) 20.17.0
+- Visual Studio Code
+- Chrome
+- Git
+
+## VSCode 플러그인 목록
+- 뷰 코드 스니펫 : [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
+
+
+
+
+# 프로젝트 생성 및 설치
+
+## 1. 프로젝트 생성
 ```
 npm init vite@latest myprojectVue3 -- --template vue
 cd myprojectVue3
 npm install
 ```
 
-# 2. Pinia 설치
+## 2. Pinia 설치
 ```
 npm install pinia
 ```
 
-# 3. Vue Router 설치
+## 3. Vue Router 설치
 ```
 npm install vue-router
 ```
 
-# 4. Axios 설치
+## 4. Axios 설치
 ```
 npm install axios
 ```
 
-# 5. PrimeVue 설치
+## 5. PrimeVue 설치
 ```
 npm install primevue@4.0.7
 npm install @primevue/themes
 ```
 
-# 6. 프로젝트 구조 설정
+## 6. 프로젝트 구조 설정
 ```
 프로젝트명/
 ├── src/
@@ -79,7 +101,7 @@ npm install @primevue/themes
 └── package.json
 ```
 
-# 7. repo 프로젝트 실행.
+## 7. repo 프로젝트 실행.
 ```[shell]
 git clone https://github.com/powerkkim/myprojectVue3.git
 cd myprojectVue3

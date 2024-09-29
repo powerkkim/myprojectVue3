@@ -2,7 +2,7 @@
 import { useRouter } from 'vue-router';
 import Button from 'primevue/button';
 import SplitButton from 'primevue/splitbutton';
-import apiClient from '@/apis';
+
 
 
 const router = useRouter();
@@ -44,6 +44,6 @@ const getJsonHolder = () => {
 <style>
 /* 스타일을 여기에 추가하세요 */
 div {
-  background-color: #ffbbcc;
+  /* background-color: #ffbbcc; */
 }
 </style>
