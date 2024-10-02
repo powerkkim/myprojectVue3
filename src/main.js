@@ -5,7 +5,6 @@ import pinia from './stores'
 import PrimeVue from 'primevue/config';
 import Aura from '@primevue/themes/aura';
 
-
 createApp(App)
   .use(router)
   .use(pinia)
@@ -17,6 +16,7 @@ createApp(App)
           darkModeSelector: '.my-app-dark',
           cssLayer: false
       }
-    }
+    }, 
   })
   .mount('#app')
+ 
